@@ -1,0 +1,32 @@
+@media (max-width: 768px) {
+  #parallax-header-3 .container .main h2 {
+    font-size: 20px;
+  }
+  #parallax-header-3 .container .main .price h2 {
+    font-size: 20px;
+  }
+  #parallax-header-3 .container .main .price h2 span {
+    font-size: 15px;
+  }
+
+  #single-room .container {
+    flex-direction: column;
+  }
+  #single-room .container .room-info {
+    width: 100%;
+  }
+  #single-room .container .room-info .room-gallery {
+    height: 400px;
+  }
+  #single-room .container .room-info .room-settings {
+    flex-wrap: wrap;
+  }
+  #single-room .container .room-info .room-settings .room-settings-box {
+    width: 50%;
+  }
+  #single-room .container .room-info .room-services .room-services-boxes .room-services-box {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=single-room.responsive.css.map */

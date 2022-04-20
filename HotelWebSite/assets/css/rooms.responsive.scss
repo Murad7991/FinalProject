@@ -1,0 +1,54 @@
+@media (max-width: 992px) {
+  #rooms {
+    .container {
+      flex-direction: column;
+      .room {
+        width: 100%;
+      }
+      .price-per-month {
+        margin-top: 50px;
+        padding: 30px;
+      }
+    }
+  }
+}
+
+
+@media (max-width: 768px) {
+  #rooms {
+    .container {
+      flex-direction: column;
+      .room {
+        width: 100%;
+      }
+      .price-per-month {
+        margin-top: 50px;
+        padding: 30px;
+      }
+    }
+  }
+}
+@media (max-width: 480px) {
+  #rooms {
+    .container {
+      .room {
+        .room-box {
+          display: flex;
+          flex-direction: column;
+          height: auto;
+          .room-box-img {
+            width: 100%;
+          }
+          .room-box-description {
+            width: 100%;
+          }
+        }
+      }
+      //.price-per-month {
+      //  margin-top: 50px;
+      //  padding: 30px;
+      //}
+    }
+  }
+}
+

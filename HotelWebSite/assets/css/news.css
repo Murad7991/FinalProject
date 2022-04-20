@@ -1,0 +1,298 @@
+.swal-button {
+  background-color: #1cc3b2;
+}
+
+.swal-button:not([disabled]):hover {
+  background-color: #0e2737;
+}
+
+#parallax-header-2 {
+  height: 300px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* The image used */
+  background-image: linear-gradient(rgba(24, 23, 35, 0.8), rgba(12, 40, 38, 0.6)), url("../img/main/17.jpg");
+  /* Set a specific height */
+  min-height: 300px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#parallax-header-2 .main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+}
+#parallax-header-2 .main h3 {
+  font-size: 48px;
+}
+#parallax-header-2 .main ul {
+  display: flex;
+  padding-top: 15px;
+}
+#parallax-header-2 .main ul li {
+  padding-left: 5px;
+  font-weight: bold;
+}
+#parallax-header-2 .main ul li a {
+  color: #fff;
+}
+#parallax-header-2 .main ul li:hover a {
+  color: #1cc3b2;
+}
+#parallax-header-2 .main ul li i {
+  padding: 0 5px;
+}
+
+#news {
+  margin-top: 100px;
+}
+#news .container {
+  display: flex;
+  column-gap: 40px;
+}
+#news .container .events {
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+  width: 90%;
+}
+#news .container .events .event-box {
+  width: 100%;
+  display: flex;
+  column-gap: 30px;
+  height: 260px;
+}
+#news .container .events .event-box .event-box-img {
+  width: 40%;
+}
+#news .container .events .event-box .event-box-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+#news .container .events .event-box .event-box-description {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#news .container .events .event-box .event-box-description a {
+  font-size: 14px;
+  color: #1cc3b2;
+  display: inline-block;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+#news .container .events .event-box .event-box-description a:hover {
+  color: #2a303b;
+}
+#news .container .events .event-box .event-box-description h2 a {
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+  cursor: pointer;
+  color: black;
+  text-transform: capitalize;
+}
+#news .container .events .event-box .event-box-description h2 a:hover {
+  color: #1cc3b2;
+}
+#news .container .events .event-box .event-box-description p {
+  color: #636a76;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  line-height: 1.6;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+#news .container .events .event-box .event-box-description .read-more a {
+  padding: 0;
+  line-height: 1;
+  color: #afb4bf;
+  font-size: 16px;
+  text-transform: capitalize;
+  text-decoration: underline;
+  font-weight: 500;
+}
+#news .container .events .event-box .event-box-description .read-more a:hover {
+  color: #2a303b;
+}
+#news .container .right-sidebar {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+#news .container .right-sidebar .subscribe {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 30px;
+  background-color: #e8f1f8;
+  border-radius: 4px;
+  margin-bottom: 100px;
+}
+#news .container .right-sidebar .subscribe h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+#news .container .right-sidebar .subscribe p {
+  line-height: 1.7;
+  color: #636a76;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+#news .container .right-sidebar .subscribe input {
+  height: 46px;
+  border: 1px solid #ebebeb;
+  background-color: #fff;
+  color: #636a76;
+  font-size: 13px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+#news .container .right-sidebar .subscribe .subscribe-button {
+  cursor: pointer;
+  min-width: 150px;
+  height: 46px;
+  line-height: 46px;
+  font-size: 16px;
+  font-weight: 600;
+  display: inline-block;
+  padding: 0 40px;
+  text-align: center;
+  text-transform: capitalize;
+  background-color: #1cc3b2;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+}
+#news .container .right-sidebar .subscribe .subscribe-button:hover {
+  box-shadow: 0 2px 40px 8px rgba(15, 15, 15, 0.15);
+  background-color: #ffffff;
+  color: #1cc3b2;
+  transition: all 0.7s;
+}
+#news .container .right-sidebar .recent-news {
+  display: flex;
+  flex-direction: column;
+}
+#news .container .right-sidebar .recent-news h3 {
+  font-size: 22px;
+  display: block;
+  border-bottom: 1px solid #ebebeb;
+  font-weight: 500;
+  padding-bottom: 10px;
+}
+#news .container .right-sidebar .recent-news .recent-news-boxes {
+  display: flex;
+  flex-direction: column;
+}
+#news .container .right-sidebar .recent-news .recent-news-boxes .recent-news-box {
+  display: flex;
+  margin-top: 30px;
+  width: 100%;
+  height: 80px;
+}
+#news .container .right-sidebar .recent-news .recent-news-boxes .recent-news-box .recent-news-box-img {
+  margin-right: 20px;
+  width: 110px;
+}
+#news .container .right-sidebar .recent-news .recent-news-boxes .recent-news-box .recent-news-box-img img {
+  object-fit: cover;
+  border-radius: 6px;
+  width: 100%;
+  height: 100%;
+}
+#news .container .right-sidebar .recent-news .recent-news-boxes .recent-news-box .recent-news-title {
+  width: 150px;
+}
+#news .container .right-sidebar .recent-news .recent-news-boxes .recent-news-box .recent-news-title a {
+  font-size: 14px;
+  color: #1cc3b2;
+  display: inline-block;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+#news .container .right-sidebar .recent-news .recent-news-boxes .recent-news-box .recent-news-title a:hover {
+  color: #2a303b;
+}
+#news .container .right-sidebar .recent-news .recent-news-boxes .recent-news-box .recent-news-title h2 a {
+  font-size: 16px;
+  color: #2a303b;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+#news .container .right-sidebar .recent-news .recent-news-boxes .recent-news-box .recent-news-title h2 a:hover {
+  color: #1cc3b2;
+}
+#news .container .right-sidebar .tags {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+}
+#news .container .right-sidebar .tags h3 {
+  font-size: 22px;
+  display: block;
+  border-bottom: 1px solid #ebebeb;
+  font-weight: 500;
+  padding-bottom: 10px;
+}
+#news .container .right-sidebar .tags ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-top: 20px;
+}
+#news .container .right-sidebar .tags ul li a {
+  font-size: 16px;
+  display: inline-block;
+  padding: 0;
+  font-weight: 400;
+  text-transform: capitalize;
+  color: #afb4bf;
+}
+#news .container .right-sidebar .tags ul li a:hover {
+  color: #1cc3b2;
+}
+#news .container .right-sidebar .instagram-photos {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+}
+#news .container .right-sidebar .instagram-photos h3 {
+  font-size: 22px;
+  display: block;
+  border-bottom: 1px solid #ebebeb;
+  font-weight: 500;
+  padding-bottom: 10px;
+}
+#news .container .right-sidebar .instagram-photos ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20px;
+}
+#news .container .right-sidebar .instagram-photos ul li {
+  width: 30%;
+}
+#news .container .right-sidebar .instagram-photos ul li a img {
+  width: 100%;
+  height: 90%;
+  object-fit: cover;
+}
+
+/*# sourceMappingURL=news.css.map */

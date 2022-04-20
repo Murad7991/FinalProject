@@ -1,0 +1,90 @@
+@media (max-width: 768px) {
+  #parallax-header {
+    .main {
+      h3 {
+        font-size: 40px;
+      }
+    }
+  }
+  .container {
+    padding: 0 20px;
+  }
+  //About us
+  #about-us {
+    .container {
+      flex-direction: column;
+      .about-img {
+        width: 100%;
+        img {
+          padding-right: 0;
+        }
+      }
+      .about-content {
+        width: 100%;
+        .about-content-text-header {
+          h2 {
+            font-size: 35px;
+          }
+        }
+      }
+    }
+  }
+  //Services
+  #services {
+    .container {
+      .services-header {
+        h2 {
+          font-size: 35px;
+        }
+      }
+      .services-boxes {
+        .services-box {
+          .services-box-footer {
+            h5 {
+              font-size: 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+
+@media (max-width: 480px) {
+  //Parallax Header
+  #parallax-header {
+    .main {
+      h3 {
+        font-size: 40px;
+      }
+    }
+  }
+  //Parallax Header
+  #services {
+    .container {
+      .services-header {
+        h2 {
+          font-size: 32px;
+        }
+      }
+      .services-boxes {
+        flex-direction: column;
+        row-gap: 20px;
+        .services-box {
+          width: 100%;
+        }
+      }
+    }
+  }
+  #our-hotel {
+    .our-hotel-content {
+      h2 {
+        font-size: 30px;
+      }
+    }
+  }
+}
+

@@ -1,0 +1,49 @@
+@media (max-width: 768px) {
+  #parallax-header-4 {
+    .main {
+      h3 {
+        font-size: 30px;
+      }
+    }
+  }
+  #single-blog {
+    .container {
+      flex-direction: column;
+      align-items: center;
+      .main-section {
+        width: 100%;
+      }
+      .right-sidebar {
+        width: 100%;
+        margin-top: 50px;
+        .recent-news {
+          .recent-news-boxes {
+            .recent-news-box {
+              width: 100%;
+              .recent-news-title {
+                width: 100%;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 480px) {
+  #parallax-header-4 {
+    .main {
+      h3 {
+        font-size: 25px;
+      }
+    }
+  }
+  #single-blog {
+    .container {
+      align-items: stretch;
+      .right-sidebar {
+        width: 100%;
+      }
+    }
+  }
+}

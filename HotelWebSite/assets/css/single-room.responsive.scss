@@ -1,0 +1,43 @@
+@media (max-width: 768px) {
+  #parallax-header-3 {
+    .container {
+      .main {
+        h2 {
+          font-size: 20px;
+        }
+        .price {
+          h2 {
+            font-size: 20px;
+            span {
+              font-size: 15px;
+            }
+          }
+        }
+      }
+    }
+  }
+  #single-room  {
+    .container {
+      flex-direction: column;
+      .room-info {
+        width: 100%;
+        .room-gallery {
+          height: 400px;
+        }
+        .room-settings {
+          flex-wrap: wrap;
+          .room-settings-box {
+            width: 50%;
+          }
+        }
+        .room-services {
+          .room-services-boxes {
+            .room-services-box {
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+}

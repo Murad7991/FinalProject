@@ -1,0 +1,212 @@
+#parallax-header {
+  height: 300px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* The image used */
+  background-image: linear-gradient(rgb(24 23 35 / 80%), rgba(12, 40, 38, 0.6)), url("../img/main/16.jpg");
+  /* Set a specific height */
+  min-height: 300px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    h3 {
+      font-size: 48px;
+    }
+    ul {
+      display: flex;
+      padding-top: 15px;
+      li {
+        padding-left: 5px;
+        font-weight: bold;
+        a {
+          color: #fff;
+        }
+        &:hover {
+          a {
+            color: #1cc3b2;
+          }
+        }
+         i {
+           padding: 0 5px;
+         }
+      }
+    }
+  }
+}
+
+//About-Us
+#about-us {
+  padding-top: 100px;
+  .container {
+    display: flex;
+    .about-img {
+      width: 50%;
+      height: 360px;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 6px;
+        padding-right: 60px;
+        padding-bottom: 40px;
+      }
+    }
+    .about-content {
+      width: 50%;
+      .about-content-text-header {
+        width: 80%;
+        margin-bottom: 50px;
+        h6 {
+          font-size: 16px;
+          color: #1cc3b2;
+          letter-spacing: 2px;
+          display: block;
+          margin-bottom: 10px;
+
+        }
+        h2 {
+          font-size: 42px;
+          text-transform: capitalize;
+          margin-bottom: 0;
+          display: block;
+          line-height: 1.2;
+          color: #2a303b;
+          font-weight: 500;
+        }
+      }
+      .about-content-text-content {
+        p {
+          line-height: 1.7;
+          color: #636a76;
+          font-size: 16px;
+          font-weight: 400;
+          margin-bottom: 16px;
+        }
+      }
+    }
+  }
+}
+
+//Our Hotel
+#our-hotel {
+  margin-top: 100px;
+  height: 500px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* The image used */
+  background-image: linear-gradient(rgb(24 23 35 / 80%), rgba(12, 40, 38, 0.6)), url("../img/20.jpg");
+  /* Set a specific height */
+  min-height: 300px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  .our-hotel-content {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h6 {
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      margin-bottom: 10px;
+      font-size: 16px;
+    }
+    h2 {
+      font-size: 42px;
+      text-transform: capitalize;
+      line-height: 1.2;
+    }
+    .play-button {
+      margin-top: 40px;
+      a {
+        display: inline-block;
+        width: 70px;
+        height: 70px;
+        background-color: #fff;
+        color: #1cc3b2;
+        font-size: 18px;
+        text-align: center;
+        line-height: 70px;
+        border-radius: 50%;
+        &:hover {
+          color: #fff;
+          background-color: #1cc3b2;
+          transition: all 0.5s;
+        }
+      }
+    }
+  }
+}
+
+//Services
+#services {
+  margin-top: 100px;
+  .container {
+    display: flex;
+    flex-direction: column;
+    .services-header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 40px;
+      h6 {
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        margin-bottom: 10px;
+        font-size: 16px;
+        color: #1cc3b2;
+      }
+      h2 {
+        font-size: 42px;
+        text-transform: capitalize;
+        line-height: 1.2;
+      }
+    }
+    .services-boxes {
+      display: flex;
+      column-gap: 30px;
+      .services-box {
+        width: 32%;
+        position: relative;
+        &:hover {
+          .services-box-footer {
+            background-color: #0e2737;
+            transition: all 0.5s;
+          }
+        }
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+        .services-box-footer {
+          width: 100%;
+          position: absolute;
+          bottom: 0;
+          height: 80px;
+          background-color: rgba(42,48,59,.5);
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          h5 {
+            color: #fff;
+            font-size: 24px;
+          }
+        }
+      }
+    }
+  }
+}

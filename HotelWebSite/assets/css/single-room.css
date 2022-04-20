@@ -1,0 +1,512 @@
+#parallax-header-3 {
+  height: 300px;
+  width: 100%;
+  /* The image used */
+  background-image: linear-gradient(rgba(24, 23, 35, 0.8), rgba(12, 40, 38, 0.6)), url("../img/main/16.jpg");
+  /* Set a specific height */
+  min-height: 300px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#parallax-header-3 .container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: flex-end;
+}
+#parallax-header-3 .container .main {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  margin-bottom: 40px;
+}
+#parallax-header-3 .container .main h2 {
+  font-size: 48px;
+}
+#parallax-header-3 .container .main .price h2 {
+  font-size: 36px;
+  color: #1cc3b2;
+}
+#parallax-header-3 .container .main .price h2 span {
+  font-size: 18px;
+  color: #ffffff;
+}
+
+#single-room {
+  margin-top: 100px;
+  width: 100%;
+}
+#single-room .container {
+  display: flex;
+  column-gap: 30px;
+}
+#single-room .container .price-per-month {
+  display: flex;
+  flex-direction: column;
+}
+#single-room .container .price-per-month h3 {
+  font-weight: lighter;
+  margin-bottom: 10px;
+}
+#single-room .container .price-per-month .date {
+  margin-bottom: 30px;
+}
+#single-room .container .price-per-month .date .input-date {
+  display: flex;
+  height: 50px;
+}
+#single-room .container .price-per-month .date .input-date input {
+  border: 1px solid #ced4da;
+  width: 50%;
+  font-size: 14px;
+  padding: 10px;
+  outline-color: #1cc3b2;
+  font-family: "Noto Sans", sans-serif;
+}
+#single-room .container .price-per-month .date .input-date input::-webkit-calendar-picker-indicator {
+  cursor: pointer;
+}
+#single-room .container .price-per-month .guest {
+  margin-bottom: 30px;
+}
+#single-room .container .price-per-month .guest .guest-info {
+  display: flex;
+  justify-content: space-between;
+}
+#single-room .container .price-per-month .guest .guest-info .adults {
+  width: 45%;
+}
+#single-room .container .price-per-month .guest .guest-info .adults form .__select-4 {
+  position: relative;
+  height: 55px;
+  margin: 0 auto;
+}
+#single-room .container .price-per-month .guest .guest-info .adults form .__select-4[data-state=active] .__select__title-4::before {
+  transform: translate(-3px, -50%) rotate(-45deg);
+}
+#single-room .container .price-per-month .guest .guest-info .adults form .__select-4[data-state=active] .__select__title-4::after {
+  transform: translate(3px, -50%) rotate(45deg);
+}
+#single-room .container .price-per-month .guest .guest-info .adults form .__select-4[data-state=active] .__select__content {
+  opacity: 1;
+}
+#single-room .container .price-per-month .guest .guest-info .adults form .__select-4[data-state=active] .__select__label-4 + .__select__input + .__select__label-4 {
+  max-height: 40px;
+  border-top-width: 1px;
+}
+#single-room .container .price-per-month .guest .guest-info .adults form .__select__title-4 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 8px 16px;
+  border-radius: 5px;
+  border: solid 1px #c7ccd1;
+  cursor: pointer;
+}
+#single-room .container .price-per-month .guest .guest-info .adults form .__select__title-4::before, #single-room .container .price-per-month .guest .guest-info .adults form .__select__title-4::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 16px;
+  display: block;
+  width: 8px;
+  height: 2px;
+  transition: all 0.3s ease-out;
+  background-color: #333333;
+  transform: translate(-3px, -50%) rotate(45deg);
+}
+#single-room .container .price-per-month .guest .guest-info .adults form .__select__title-4::after {
+  transform: translate(3px, -50%) rotate(-45deg);
+}
+#single-room .container .price-per-month .guest .guest-info .adults form .__select__title-4:hover {
+  border-color: #1cc3b2;
+}
+#single-room .container .price-per-month .guest .guest-info .adults form .__select__title-4:hover::before, #single-room .container .price-per-month .guest .guest-info .adults form .__select__title-4:hover::after {
+  background-color: #1cc3b2;
+}
+#single-room .container .price-per-month .guest .guest-info .adults form .__select__content {
+  position: absolute;
+  top: 55px;
+  display: flex;
+  flex-direction: column;
+  width: calc(100% - 10px);
+  background-color: #ffffff;
+  border: 1px solid #c7ccd1;
+  border-top: none;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  transition: all 0.3s ease-out;
+  opacity: 0;
+  z-index: 8;
+}
+#single-room .container .price-per-month .guest .guest-info .adults form .__select__input {
+  display: none;
+}
+#single-room .container .price-per-month .guest .guest-info .adults form .__select__input:checked + label {
+  background-color: #dedede;
+}
+#single-room .container .price-per-month .guest .guest-info .adults form .__select__input:disabled + label {
+  opacity: 0.6;
+  pointer-events: none;
+}
+#single-room .container .price-per-month .guest .guest-info .adults form .__select__label-4 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  max-height: 0;
+  padding: 0 16px;
+  transition: all 0.2s ease-out;
+  cursor: pointer;
+  overflow: hidden;
+}
+#single-room .container .price-per-month .guest .guest-info .adults form .__select__label-4 + input + #single-room .container .price-per-month .guest .guest-info .adults form .__select__label-4 {
+  border-top: 0 solid #C7CCD160;
+}
+#single-room .container .price-per-month .guest .guest-info .adults form .__select__label-4:hover {
+  background-color: #1cc3b2 !important;
+  color: #ffffff;
+}
+#single-room .container .price-per-month .guest .guest-info .children {
+  width: 45%;
+}
+#single-room .container .price-per-month .guest .guest-info .children form .__select-5 {
+  position: relative;
+  height: 55px;
+  margin: 0 auto;
+}
+#single-room .container .price-per-month .guest .guest-info .children form .__select-5[data-state=active] .__select__title-5::before {
+  transform: translate(-3px, -50%) rotate(-45deg);
+}
+#single-room .container .price-per-month .guest .guest-info .children form .__select-5[data-state=active] .__select__title-5::after {
+  transform: translate(3px, -50%) rotate(45deg);
+}
+#single-room .container .price-per-month .guest .guest-info .children form .__select-5[data-state=active] .__select__content {
+  opacity: 1;
+}
+#single-room .container .price-per-month .guest .guest-info .children form .__select-5[data-state=active] .__select__label-5 + .__select__input + .__select__label-5 {
+  max-height: 40px;
+  border-top-width: 1px;
+}
+#single-room .container .price-per-month .guest .guest-info .children form .__select__title-5 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 8px 16px;
+  border-radius: 5px;
+  border: solid 1px #c7ccd1;
+  cursor: pointer;
+}
+#single-room .container .price-per-month .guest .guest-info .children form .__select__title-5::before, #single-room .container .price-per-month .guest .guest-info .children form .__select__title-5::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 16px;
+  display: block;
+  width: 8px;
+  height: 2px;
+  transition: all 0.3s ease-out;
+  background-color: #333333;
+  transform: translate(-3px, -50%) rotate(45deg);
+}
+#single-room .container .price-per-month .guest .guest-info .children form .__select__title-5::after {
+  transform: translate(3px, -50%) rotate(-45deg);
+}
+#single-room .container .price-per-month .guest .guest-info .children form .__select__title-5:hover {
+  border-color: #1cc3b2;
+}
+#single-room .container .price-per-month .guest .guest-info .children form .__select__title-5:hover::before, #single-room .container .price-per-month .guest .guest-info .children form .__select__title-5:hover::after {
+  background-color: #1cc3b2;
+}
+#single-room .container .price-per-month .guest .guest-info .children form .__select__content {
+  position: absolute;
+  top: 55px;
+  display: flex;
+  flex-direction: column;
+  width: calc(100% - 10px);
+  background-color: #ffffff;
+  border: 1px solid #c7ccd1;
+  border-top: none;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  transition: all 0.3s ease-out;
+  opacity: 0;
+  z-index: 8;
+}
+#single-room .container .price-per-month .guest .guest-info .children form .__select__input {
+  display: none;
+}
+#single-room .container .price-per-month .guest .guest-info .children form .__select__input:checked + label {
+  background-color: #dedede;
+}
+#single-room .container .price-per-month .guest .guest-info .children form .__select__input:disabled + label {
+  opacity: 0.6;
+  pointer-events: none;
+}
+#single-room .container .price-per-month .guest .guest-info .children form .__select__label-5 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  max-height: 0;
+  padding: 0 16px;
+  transition: all 0.2s ease-out;
+  cursor: pointer;
+  overflow: hidden;
+}
+#single-room .container .price-per-month .guest .guest-info .children form .__select__label-5 + input + #single-room .container .price-per-month .guest .guest-info .children form .__select__label-5 {
+  border-top: 0 solid #C7CCD160;
+}
+#single-room .container .price-per-month .guest .guest-info .children form .__select__label-5:hover {
+  background-color: #1cc3b2 !important;
+  color: #ffffff;
+}
+#single-room .container .price-per-month .range-price {
+  margin-bottom: 50px;
+  /* custom thumb */
+  /* remove border */
+}
+#single-room .container .price-per-month .range-price .range {
+  display: flex;
+  width: 100%;
+}
+#single-room .container .price-per-month .range-price .range__slider {
+  width: 45%;
+}
+#single-room .container .price-per-month .range-price .range__value {
+  width: 35%;
+  margin-left: 45px;
+  text-align: center;
+  border-left: #e6e4e4 1px solid;
+}
+#single-room .container .price-per-month .range-price .form-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#single-room .container .price-per-month .range-price .form-group label {
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  color: #222;
+  margin-bottom: 5px;
+}
+#single-room .container .price-per-month .range-price .form-group span {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #3c3b3b;
+}
+#single-room .container .price-per-month .range-price .range__slider label {
+  margin-bottom: 10px;
+}
+#single-room .container .price-per-month .range-price .range__slider [type=range] {
+  width: 100%;
+  -webkit-appearance: none;
+  height: 13px;
+  border-radius: 6px;
+  background: #f1f1f1;
+  outline: none;
+  padding: 0;
+  margin: 0;
+}
+#single-room .container .price-per-month .range-price .range__slider [type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #fff;
+  border: #1cc3b2 5px solid;
+  cursor: pointer;
+  -webkit-transition: background 0.15s ease-in-out;
+  transition: background 0.15s ease-in-out;
+}
+#single-room .container .price-per-month .range-price .range__slider [type=range]::-webkit-slider-thumb:hover {
+  background: #1cc3b2;
+}
+#single-room .container .price-per-month .range-price .range__slider [type=range]::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  border: 0;
+  border-radius: 50%;
+  background: #f0932b;
+  border: #f9ca24 5px solid;
+  cursor: pointer;
+  -webkit-transition: background 0.15s ease-in-out;
+  transition: background 0.15s ease-in-out;
+}
+#single-room .container .price-per-month .range-price .range__slider [type=range]::-moz-range-thumb:hover {
+  background: #f9ca24;
+}
+#single-room .container .price-per-month .range-price input::-moz-focus-inner, #single-room .container .price-per-month .range-price input::-moz-focus-outer {
+  border: 0;
+}
+#single-room .container .price-per-month .check-button {
+  align-self: center;
+}
+#single-room .container .price-per-month .check-button button {
+  cursor: pointer;
+  min-width: 150px;
+  height: 46px;
+  line-height: 46px;
+  font-size: 16px;
+  font-weight: 600;
+  display: inline-block;
+  padding: 0 40px;
+  text-align: center;
+  text-transform: capitalize;
+  background-color: #1cc3b2;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+}
+#single-room .container .price-per-month .check-button button:hover {
+  box-shadow: 0 2px 40px 8px rgba(15, 15, 15, 0.15);
+  background-color: #ffffff;
+  color: #1cc3b2;
+  transition: all 0.7s;
+}
+#single-room .container .room-info {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+#single-room .container .room-info .room-gallery {
+  width: 100%;
+  height: 565px;
+}
+#single-room .container .room-info .room-settings {
+  width: 100%;
+  margin-top: 50px;
+  display: flex;
+}
+#single-room .container .room-info .room-settings .room-settings-box {
+  border: 1px solid #ebebeb;
+  padding: 30px 15px;
+  width: 25%;
+  text-align: center;
+}
+#single-room .container .room-info .room-settings .room-settings-box h6 {
+  color: #afb4bf;
+  font-size: 16px;
+  font-weight: lighter;
+}
+#single-room .container .room-info .room-settings .room-settings-box span {
+  font-size: 16px;
+  color: black;
+}
+#single-room .container .room-info .room-description {
+  margin-top: 50px;
+  width: 100%;
+}
+#single-room .container .room-info .room-description p {
+  line-height: 1.7;
+  color: #636a76;
+  font-size: 16px;
+}
+#single-room .container .room-info .room-description ul {
+  padding: 15px 0;
+}
+#single-room .container .room-info .room-description ul li {
+  color: #636a76;
+  display: block;
+  margin-bottom: 15px;
+}
+#single-room .container .room-info .room-description ul li i {
+  padding-right: 5px;
+  font-weight: bold;
+}
+#single-room .container .room-info .room-services {
+  margin-top: 30px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+#single-room .container .room-info .room-services h3 {
+  margin-bottom: 30px;
+}
+#single-room .container .room-info .room-services .room-services-boxes {
+  display: flex;
+  flex-wrap: wrap;
+}
+#single-room .container .room-info .room-services .room-services-boxes .room-services-box {
+  width: 33%;
+  display: flex;
+  padding: 17px;
+}
+#single-room .container .room-info .room-services .room-services-boxes .room-services-box .icon-img {
+  height: 30px;
+  margin-right: 10px;
+}
+#single-room .container .room-info .room-services .room-services-boxes .room-services-box .icon-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#single-room .container .room-info .room-review {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+#single-room .container .room-info .room-review h3 {
+  margin-bottom: 30px;
+}
+#single-room .container .room-info .room-review .room-review-box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+#single-room .container .room-info .room-review .room-review-box .person-comment-box {
+  width: 100%;
+  display: flex;
+}
+#single-room .container .room-info .room-review .room-review-box .person-comment-box .person-img {
+  border-right: 1px solid #ebebeb;
+  width: 100px;
+  padding: 15px;
+}
+#single-room .container .room-info .room-review .room-review-box .person-comment-box .person-img img {
+  border-radius: 50%;
+  width: 70px;
+}
+#single-room .container .room-info .room-review .room-review-box .person-comment-box .person-info {
+  display: flex;
+  flex-direction: column;
+  padding-left: 15px;
+}
+#single-room .container .room-info .room-review .room-review-box .person-comment-box .person-info p {
+  line-height: 1.7;
+  color: #636a76;
+  font-size: 16px;
+}
+#single-room .container .room-info .room-review .room-review-box .person-comment-box .person-info .person-info-date {
+  display: flex;
+  justify-content: space-between;
+}
+#single-room .container .room-info .room-review .room-review-box .person-comment-box .person-info .person-info-date .person-name {
+  margin-bottom: 10px;
+}
+#single-room .container .room-info .room-review .room-review-box .person-comment-box .person-info .person-info-date .person-name span {
+  font-size: 14px;
+  display: block;
+  margin-bottom: 10px;
+  color: #afb4bf;
+}
+#single-room .container .room-info .room-review .room-review-box .person-comment-box .person-info .person-info-date .person-name h6 {
+  font-size: 16px;
+  color: #1cc3b2;
+}
+#single-room .container .room-info .room-review .room-review-box .person-comment-box .person-info .person-info-date .person-stars {
+  color: #f5b917;
+  font-size: 14px;
+}
+
+/*# sourceMappingURL=single-room.css.map */

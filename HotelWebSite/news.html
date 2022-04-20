@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>News</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/css/news.css">
+    <link rel="stylesheet" href="assets/css/news.responsive.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+<!--PreLoading Section-->
+<div class="preloader">
+    <div class="preloader__row">
+        <div class="preloader__item"></div>
+        <div class="preloader__item"></div>
+    </div>
+</div>
+    <button id="myBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+    <header>
+        <div class="search-container animate__animated animate__fadeInDown animate__faster">
+            <div class="container">
+                <form>
+                    <label for="search"></label>
+                    <input id="search" type="text" placeholder="Type your keyword ..."/>
+                    <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                </form>
+            </div>
+        </div>
+        <div class="header-top">
+            <div class="container">
+                <div class="content">
+                    <div class="contact">
+                        <a href="#">
+                            <i style="color: #1cc3b2;" class="fa-solid fa-phone"></i>
+                            <span>(123) 456-789-1230</span>
+                        </a>
+                        <a href="#">
+                            <i style="color: #1cc3b2;" class="fa-solid fa-envelope"></i>
+                            <span>info.colorlib@gmail.com</span>
+                        </a>
+                    </div>
+                    <div class="social">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-vk"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-bottom">
+            <div class="container">
+                <div class="content">
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="assets/img/logo.webp" alt="logo">
+                        </a>
+                    </div>
+                    <nav class="menu_list">
+                        <div class="close-icon">
+                            <i class="fa-solid fa-xmark"></i>
+                        </div>
+                        <div class="menu">
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="rooms.html">Rooms</a></li>
+                                <li><a href="about.html">About Us</a></li>
+                                <li><a href="#">Pages <i class="fa-solid fa-angle-down"></i></a>
+                                    <ul class="submenu">
+                                        <li><a href="index.html"><i class="fa-solid fa-hyphen"></i>- Home</a></li>
+                                        <li><a href="rooms.html"><i class="fa-solid fa-hyphen"></i>- Rooms</a></li>
+                                        <li><a href="single-room.html"><i class="fa-solid fa-hyphen"></i>- Single Rooms</a></li>
+                                        <li><a href="about.html"><i class="fa-solid fa-hyphen"></i>- About Us</a></li>
+                                        <li><a href="news.html"><i class="fa-solid fa-hyphen"></i>- Blog</a></li>
+                                        <li><a href="single-blog.html"><i class="fa-solid fa-hyphen"></i>- Single Blog</a></li>
+                                        <li><a href="contact.html"><i class="fa-solid fa-hyphen"></i>- Contact</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="news.html">News</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul>
+                            <div class="search-icon">
+                                <a><i class="fa-solid fa-magnifying-glass"></i></a>
+                            </div>
+                        </div>
+                        <div class="book-now-button">
+                            <a href="#">Book Now <i class="fa-solid fa-arrow-right-long"></i></a>
+                        </div>
+                    </nav>
+                    <div class="menu_icon">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!--    Parallax Header-->
+    <section id="parallax-header-2">
+        <div class="main">
+            <h3>Blog Left Sidebar</h3>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><i class="fa-solid fa-angle-right"></i>Blog Left Sidebar</li>
+            </ul>
+        </div>
+    </section>
+
+<!--    News Event-->
+    <section id="news">
+        <div class="container">
+            <div class="events">
+<!--                <div data-aos="fade-up" class="event-box">-->
+<!--                    <div class="event-box-img">-->
+<!--                        <img src="assets/img/24.jpg" alt="room-img"/>-->
+<!--                    </div>-->
+<!--                    <div class="event-box-description">-->
+<!--                        <a href="#">Jan 02, 2019 / Event </a>-->
+<!--                        <h2><a href="news.html">Cdc Issues Health Alert Notice For Travelers To Usa From Hon</a></h2>-->
+<!--                        <div class="event-box-services">-->
+<!--                            <p>A round-the-world trip remains the world’s greatest journey. For two out of every three people, this is the ultimate travel experience, according to recent research...</p>-->
+<!--                            <div class="read-more">-->
+<!--                                <a href="#">Read More</a>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div data-aos="fade-up" class="event-box">-->
+<!--                    <div class="event-box-img">-->
+<!--                        <img src="assets/img/25.jpg" alt="room-img"/>-->
+<!--                    </div>-->
+<!--                    <div class="event-box-description">-->
+<!--                        <a href="#">Jan 02, 2019 / Event </a>-->
+<!--                        <h2><a href="news.html">How To Boost Your Traffic Of Your Blog And Destroy The Competition</a> </h2>-->
+<!--                        <div class="event-box-services">-->
+<!--                            <p>Businesses such as GuideMeGreen and the co-op offer a real alternative for people concerned with these issues and with businesses that combine a strong ethical dimension in tandem with making profits...</p>-->
+<!--                            <div class="read-more">-->
+<!--                                <a href="#">Read More</a>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div data-aos="fade-up" class="event-box">-->
+<!--                    <div class="event-box-img">-->
+<!--                        <img src="assets/img/26.jpg" alt="room-img"/>-->
+<!--                    </div>-->
+<!--                    <div class="event-box-description">-->
+<!--                        <a href="#">Jan 02, 2019 / Event </a>-->
+<!--                        <h2><a href="news.html">Global Travel And Vacations Luxury Travel On A Tight Budget</a></h2>-->
+<!--                        <div class="event-box-services">-->
+<!--                            <p>Life is hectic; it’s true. There are so many things that demand your time and attention. Between work, kids, family and household chores, there is precious little time left over for you.</p>-->
+<!--                            <div class="read-more">-->
+<!--                                <a href="#">Read More</a>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div data-aos="fade-up" class="event-box">-->
+<!--                    <div class="event-box-img">-->
+<!--                        <img src="assets/img/27.jpg" alt="room-img"/>-->
+<!--                    </div>-->
+<!--                    <div class="event-box-description">-->
+<!--                        <a href="#">Jan 02, 2019 / Event </a>-->
+<!--                        <h2><a href="news.html">Will The Democrats Be Able To Reverse The Online Gambling Ban</a></h2>-->
+<!--                        <div class="event-box-services">-->
+<!--                            <p>Everyone loves good, old fashioned charcoal grilling. Aside from being cheaper than other grilling methods, it adds a raw, distinctive taste to your sausages, burgers, ribs, and other grilled items.</p>-->
+<!--                            <div class="read-more">-->
+<!--                                <a href="#">Read More</a>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div data-aos="fade-up" class="event-box">-->
+<!--                    <div class="event-box-img">-->
+<!--                        <img src="assets/img/28.jpg" alt="room-img"/>-->
+<!--                    </div>-->
+<!--                    <div class="event-box-description">-->
+<!--                        <a href="#">Jan 02, 2019 / Event </a>-->
+<!--                        <h2><a href="news.html">Les Houches The Hidden Gem Of The Chamonix Valley</a></h2>-->
+<!--                        <div class="event-box-services">-->
+<!--                            <p>Las Vegas has more than 100,000 hotel rooms to choose from. There is something for every budget, and enough entertainment within walking distance to keep anyone occupied for months.</p>-->
+<!--                            <div class="read-more">-->
+<!--                                <a href="#">Read More</a>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+            </div>
+            <div class="right-sidebar">
+                <div class="subscribe">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe our newsletter gor get notification new updates.</p>
+                    <input id="email" type="email" placeholder="Enter your email...">
+                    <button id="subscribe" class="subscribe-button">
+                        Subscribe
+                    </button>
+                </div>
+                <div class="recent-news">
+                    <h3>Recent News</h3>
+                    <div class="recent-news-boxes">
+<!--                        <div class="recent-news-box">-->
+<!--                            <div class="recent-news-box-img">-->
+<!--                                <img src="assets/img/29.jpg"  alt="recent-news-img"/>-->
+<!--                            </div>-->
+<!--                            <div class="recent-news-title">-->
+<!--                                <a href="#">Jan 02, 2019 / Event </a>-->
+<!--                                <h2><a href="#">Proven Techniques Help You Herbal Breast</a></h2>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        <div class="recent-news-box">-->
+<!--                            <div class="recent-news-box-img">-->
+<!--                                <img src="assets/img/30.jpg"  alt="recent-news-img"/>-->
+<!--                            </div>-->
+<!--                            <div class="recent-news-title">-->
+<!--                                <a href="#">Jan 02, 2019 / Event </a>-->
+<!--                                <h2><a href="#">Cooking On A George Foreman Grill</a></h2>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        <div class="recent-news-box">-->
+<!--                            <div class="recent-news-box-img">-->
+<!--                                <img src="assets/img/31.jpg"  alt="recent-news-img"/>-->
+<!--                            </div>-->
+<!--                            <div class="recent-news-title">-->
+<!--                                <a href="#">Jan 02, 2019 / Event </a>-->
+<!--                                <h2><a href="#">Selecting The Right Hotel</a></h2>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        <div class="recent-news-box">-->
+<!--                            <div class="recent-news-box-img">-->
+<!--                                <img src="assets/img/32.jpg"  alt="recent-news-img"/>-->
+<!--                            </div>-->
+<!--                            <div class="recent-news-title">-->
+<!--                                <a href="#">Jan 02, 2019 / Event </a>-->
+<!--                                <h2><a href="#">Comment Importance Of Human Life</a></h2>-->
+<!--                            </div>-->
+<!--                        </div>-->
+                    </div>
+                </div>
+                <div class="tags">
+                    <h3>Tags</h3>
+                    <ul>
+                        <li><a href="#">Bed,</a></li>
+                        <li><a href="#">Hotel,</a></li>
+                        <li><a href="#">Travel,</a></li>
+                        <li><a href="#">Restaurant,</a></li>
+                        <li><a href="#">Sport,</a></li>
+                        <li><a href="#">Trip,</a></li>
+                        <li><a href="#">Music,</a></li>
+                        <li><a href="#">Holiday,</a></li>
+                        <li><a href="#">Tourist,</a></li>
+                        <li><a href="#">Foody,</a></li>
+                        <li><a href="#">Resorts.</a></li>
+                    </ul>
+                </div>
+                <div class="instagram-photos">
+                    <h3>Instagram</h3>
+                    <ul>
+                        <li><a href="#"><img src="assets/img/33.jpg" alt="instagram-photo"></a></li>
+                        <li><a href="#"><img src="assets/img/34.jpg" alt="instagram-photo"></a></li>
+                        <li><a href="#"><img src="assets/img/35.jpg" alt="instagram-photo"></a></li>
+                        <li><a href="#"><img src="assets/img/36.jpg" alt="instagram-photo"></a></li>
+                        <li><a href="#"><img src="assets/img/37.jpg" alt="instagram-photo"></a></li>
+                        <li><a href="#"><img src="assets/img/38.jpg" alt="instagram-photo"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Parallax Section-->
+    <section id="parallax-section">
+        <div class="container">
+            <div class="parallax-content">
+                <div class="contact">
+                    <h2>Contact us now!</h2>
+                    <h6>Contact (+12) 345-678-9999 to book directly or for advice</h6>
+                </div>
+                <div class="contact-button">
+                    <a href="#">Contact Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Partners Section-->
+    <section id="partners-section">
+        <div class="container">
+            <div class="all-partners">
+                <a href="#"><img src="assets/img/logo/p1.png" alt="logo-partner"/></a>
+                <a href="#"><img src="assets/img/logo/p2.png" alt="logo-partner"/></a>
+                <a href="#"><img src="assets/img/logo/p3.png" alt="logo-partner"/></a>
+                <a href="#"><img src="assets/img/logo/p4.png" alt="logo-partner"/></a>
+                <a href="#"><img src="assets/img/logo/p5.png" alt="logo-partner"/></a>
+            </div>
+        </div>
+    </section>
+
+<!--Footer Section-->
+<footer>
+    <div class="container">
+        <div class="footer-content">
+            <div class="roberto footer-box">
+                <a href="./"><img src="assets/img/logo2.png" alt="logo2"></a>
+                <h4>+12 345-678-9999</h4>
+                <span>Info.colorlib@gmail.com</span>
+                <span>856 Cordia Extension Apt. 356, Lake Deangeloburgh, South Africa</span>
+            </div>
+            <div class="our-blog footer-box">
+                <h5>Our Blog</h5>
+                <a href="#">Freelance Design Tricks How</a>
+                <span> Jan 02, 2019</span>
+                <a href="single-blog.html">Free Advertising For Your Online</a>
+                <span> Jan 02, 2019</span>
+            </div>
+            <div class="links footer-box">
+                <h5>Links</h5>
+                <ul>
+                    <li><i class="fa-solid fa-caret-right"></i>About Us</li>
+                    <li><i class="fa-solid fa-caret-right"></i>Our Room</li>
+                    <li><i class="fa-solid fa-caret-right"></i>Career</li>
+                    <li><i class="fa-solid fa-caret-right"></i>FAQs</li>
+                </ul>
+            </div>
+            <div class="newsletter footer-box">
+                <h5>Subscribe Newsletter</h5>
+                <span>Subscribe our newsletter gor get notification about new updates.</span>
+                <form>
+                    <input id="footerSubscribe" name="email" type="email" placeholder="Enter your email..."/>
+                    <button id="footerButton"  type="submit"><i class="fa-solid fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+        <div class="copyright">
+            <div class="copyright-description">
+                <p>Copyright ©2022 All rights reserved | This template is made with <i style="color: #1cc3b2" class="fa-solid fa-heart"></i>  by  <a style="display: inline-block; color: #fff" href="https://github.com/Murad7991?tab=repositories">Muro7991</a></p>
+            </div>
+            <div class="copyright-link">
+                <a href="./"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="./"><i class="fa-brands fa-twitter"></i></a>
+                <a href="./"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="./"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://kit.fontawesome.com/66f8655eb0.js" crossorigin="anonymous"></script>
+<script src="assets/js/news.js"></script>
+<script src="assets/js/index.js"></script>
+</body>
+</html>
